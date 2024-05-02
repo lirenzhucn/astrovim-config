@@ -8,6 +8,10 @@
       {
         "language": "cpp",
         "path": "./dstcopyright.json"
+      },
+      {
+        "language": "cuda",
+        "path": "./dstcopyright.json"
       }
     ]
   }
