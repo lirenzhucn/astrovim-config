@@ -19,10 +19,11 @@ return {
     "jay-babu/mason-null-ls.nvim",
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
+      ensure_installed = { 'yapf', 'isort' },
       handlers = {
         yapf = function()
           require("null-ls").register(require("null-ls").builtins.formatting.yapf.with {
-            extra_args = { '--diff', '--style', 'google' }
+            extra_args = { '--style', 'google' }
           })
         end
       }
