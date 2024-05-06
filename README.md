@@ -24,7 +24,6 @@ You may need to run this command if it doesn't work!
 ```
 
 ##### Tabnine
-Note: This is __DISABLED__ by default. Remove the top line of `tabnine.lua` to enable tabnine.
 
 Default key maps:
 
@@ -39,7 +38,7 @@ Reject suggestions `<ctrl-j>`
 
 **NOTE:** This is for AstroNvim v4+
 
-##### Install Nerd fonts 
+#### Install Nerd fonts 
 
 Here is the one I use:
 
@@ -60,6 +59,9 @@ sudo snap install nvim --classic
 
 #### Make a backup of your current nvim and shared folder (Optional)
 
+*You may want to either backup or remove these old files, otherwise old configs of neovim may
+interfere with AstroNvim configs*
+
 ```shell
 mv ~/.config/nvim ~/.config/nvim.bak
 mv ~/.local/share/nvim ~/.local/share/nvim.bak
@@ -76,8 +78,14 @@ You can also just clone this repository directly if you do not want to track you
 #### Clone the repository
 
 ```shell
-git clone https://github.com/OpticSeven/astrovim-config.git ~/.config/nvim
+git clone https://github.com/lirenzhucn/astrovim-config.git ~/.config/nvim
 ```
+
+#### Install external dependencies (Optional)
+
+You may want to also install a few optional external tools recommended by AstroNvim.
+E.g. `ripgrep` and `lazygit`. Both are CLI tools that can be automatically detected
+and used by AstroNvim.
 
 #### Start Neovim
 
