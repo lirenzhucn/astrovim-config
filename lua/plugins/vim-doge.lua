@@ -8,5 +8,6 @@ return {
       single_quotes = 0,
       omit_redundant_param_types = 0,
     }
+    vim.keymap.set('n', '<Leader>d', '<Plug>(doge-generate)')
   end,
 }
