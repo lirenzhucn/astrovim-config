@@ -7,11 +7,15 @@
     "snippets": [
       {
         "language": "cpp",
-        "path": "./dstcopyright.json"
+        "path": "./dstcopyright-cpp.json"
       },
       {
         "language": "cuda",
-        "path": "./dstcopyright.json"
+        "path": "./dstcopyright-cpp.json"
+      },
+      {
+        "language": "python",
+        "path": "./dstcopyright-python.json"
       }
     ]
   }
