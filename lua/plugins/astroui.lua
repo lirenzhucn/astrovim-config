@@ -18,6 +18,9 @@ return {
       },
       astrodark = { -- a table of overrides/changes when applying the astrotheme theme
         Normal = { bg = "none" },
+        CursorLine = { bg = "none" },
+        StatusLine = { bg = "none" },
+        NormalNC = { bg = "none" },
       },
     },
     -- Icons can be configured throughout the interface
